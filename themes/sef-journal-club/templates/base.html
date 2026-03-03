@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="site-title" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+      <ul>
+        {% for p in pages %}
+        <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <hr>
+    <p>{{ SITENAME }}</p>
+  </footer>
+</body>
+</html>

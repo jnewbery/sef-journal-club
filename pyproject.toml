@@ -1,0 +1,8 @@
+[project]
+name = "journal-club"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "pelican[markdown]>=4.11.0.post0",
+]

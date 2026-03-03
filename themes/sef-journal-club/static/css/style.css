@@ -1,0 +1,86 @@
+/* Reset & base */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* Header / nav */
+header nav {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #444;
+}
+
+header nav ul a:hover { text-decoration: underline; }
+
+header hr, footer hr {
+  margin: 0.75rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Main content */
+main { margin: 2rem 0; }
+
+/* Meeting list on index */
+.meeting-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meeting-list li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.meeting-date {
+  font-family: monospace;
+  color: #555;
+}
+
+/* Article / page */
+article h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+}
+
+article p, article li, article h2, article h3 {
+  margin-top: 1rem;
+}
+
+article h2 { font-size: 1.25rem; }
+article h3 { font-size: 1.05rem; }
+
+article ul { padding-left: 1.5rem; }
+
+a { color: #0055aa; }
+a:hover { text-decoration: underline; }
+
+/* Footer */
+footer { color: #777; font-size: 0.9rem; }

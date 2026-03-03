@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block content %}
+<h2>Upcoming and Recent Meetings</h2>
+<ul class="meeting-list">
+  {% for article in articles %}
+  <li>
+    <span class="meeting-date">{{ article.date.strftime('%d %b %Y') }}</span>
+    &raquo;
+    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
