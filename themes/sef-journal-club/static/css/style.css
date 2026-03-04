@@ -2,13 +2,18 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: Georgia, "Times New Roman", serif;
+  background-color: #FAF9F6;
+  font-family: "Avenir Next", "Avenir", "Nunito Sans", "Segoe UI", system-ui, sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #222;
-  max-width: 760px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 /* Header / nav */
@@ -50,13 +55,44 @@ main { margin: 2rem 0; }
 
 /* Meeting list on index */
 .meeting-list {
-  list-style: none;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.meeting-list li {
-  margin: 0.5rem 0;
+.meeting-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.discussion-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
   font-size: 1rem;
+}
+
+.meeting-date {
+  font-family: "Avenir Next", "Avenir", monospace;
+  color: #555;
+  font-size: 0.9rem;
+  min-width: 8rem;
+  flex-shrink: 0;
+}
+
+.meeting-date-blank {
+  min-width: 8rem;
+  flex-shrink: 0;
+}
+
+.topic-num { color: #999; font-size: 0.9rem; flex-shrink: 0; }
+
+.discussion-body { }
+
+.presenter {
+  color: #666;
+  font-size: 0.85rem;
 }
 
 .meeting-date {
@@ -68,6 +104,7 @@ main { margin: 2rem 0; }
 article h1 {
   font-size: 1.6rem;
   margin-bottom: 0.25rem;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 article p, article li, article h2, article h3 {

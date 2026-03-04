@@ -3,14 +3,26 @@
 {% block title %}{{ SITENAME }}{% endblock %}
 
 {% block content %}
-<h2>Upcoming and Recent Meetings</h2>
-<ul class="meeting-list">
-  {% for article in articles %}
-  <li>
-    <span class="meeting-date">{{ article.date.strftime('%d %b %Y') }}</span>
-    &raquo;
-    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-  </li>
+<h2>Journal Club Discussions</h2>
+<div class="meeting-list">
+  {% for meeting_date, group in articles | groupby('meeting') | sort(attribute='grouper', reverse=True) %}
+  {% set sorted_group = group | sort(attribute='topic') %}
+  <div class="meeting-group">
+    {% for article in sorted_group %}
+    <div class="discussion-line">
+      {% if loop.first %}
+        <span class="meeting-date">{{ (sorted_group | first).date.strftime('%d %b %Y') }}</span>
+      {% else %}
+        <span class="meeting-date meeting-date-blank"></span>
+      {% endif %}
+      <span class="topic-num">{{ article.topic }}.</span>
+      <span class="discussion-body">
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        <span class="presenter"> (presented by {{ article.presenter }})</span>
+      </span>
+    </div>
+    {% endfor %}
+  </div>
   {% endfor %}
-</ul>
+</div>
 {% endblock %}

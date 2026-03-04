@@ -5,6 +5,9 @@ SITEURL = ""
 PATH = "content"
 THEME = "themes/sef-journal-club"
 
+STATIC_PATHS = ["extra"]
+EXTRA_PATH_METADATA = {"extra/favicon.png": {"path": "favicon.png"}}
+
 TIMEZONE = "Europe/London"
 DEFAULT_LANG = "en"
 
