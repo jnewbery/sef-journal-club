@@ -5,14 +5,11 @@
 {% block content %}
 <article>
   <p class="meeting-date">{{ article.date.strftime('%d %b %Y') }}</p>
-  <h1>
-    {% if article.link %}
-      <a href="{{ article.link }}">{{ article.title }}</a>
-    {% else %}
-      {{ article.title }}
-    {% endif %}
-  </h1>
+  <h1>{{ article.title }}</h1>
   <p class="presenter">Presented by {{ article.presenter }}</p>
+  {% if article.link %}
+  <p><a href="{{ article.link }}">Link to paper</a></p>
+  {% endif %}
   {{ article.content }}
 </article>
 {% endblock %}

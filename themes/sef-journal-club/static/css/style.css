@@ -16,10 +16,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+
 /* Header / nav */
 header nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -29,6 +32,14 @@ header nav {
   font-weight: bold;
   text-decoration: none;
   color: #222;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.site-logo {
+  height: 6rem;
+  width: auto;
 }
 
 header nav ul {
@@ -102,7 +113,7 @@ main { margin: 2rem 0; }
 
 /* Article / page */
 article h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-bottom: 0.25rem;
   font-family: Georgia, "Times New Roman", serif;
 }
@@ -111,8 +122,8 @@ article p, article li, article h2, article h3 {
   margin-top: 1rem;
 }
 
-article h2 { font-size: 1.25rem; }
-article h3 { font-size: 1.05rem; }
+article h2 { font-size: 1.5rem; }
+article h3 { font-size: 1.15rem; }
 
 article ul { padding-left: 1.5rem; }
 

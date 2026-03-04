@@ -10,7 +10,10 @@
 <body>
   <header>
     <nav>
-      <a class="site-title" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+      <a class="site-title" href="{{ SITEURL }}/">
+        <img src="{{ SITEURL }}/images/journal_club.png" alt="{{ SITENAME }} logo" class="site-logo">
+        {{ SITENAME }}
+      </a>
       <ul>
         {% for p in pages %}
         <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>

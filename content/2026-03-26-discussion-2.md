@@ -1,4 +1,4 @@
-Title: Paper def
+Title: A really interesting paper about energy policy
 Date: 2026-03-26
 Slug: 2026-03-26-discussion-2
 Meeting: 2026-03-26

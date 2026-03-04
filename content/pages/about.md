@@ -14,7 +14,8 @@ meetings are conversations, not seminars - presenters are expected to have read
 their paper and prepared thoroughly, but their role is to facilitate a
 discussion rather than deliver a lecture.
 
-### Weekly Format
+## Weekly Format
+
 _Two papers per session - approximately 50 minutes total_
 
 For each paper:
@@ -24,7 +25,7 @@ For each paper:
 
 After both papers: trip to the union.
 
-### Suggested Presentation Structure (10 minutes)
+## Suggested Presentation Structure (10 minutes)
 
 - **1-2 min: The big picture.** What problem does this paper address? Assume no
   prior knowledge of the specific domain.
@@ -36,7 +37,7 @@ After both papers: trip to the union.
 Slides are optional but welcome. The goal is to inform and provoke discussion,
 not to reproduce the paper.
 
-### Handout (circulated 24 hours before)
+## Handout (circulated 24 hours before)
 
 Each presenter should prepare a one-page handout for the group before the
 session. As an example, the document could include:
@@ -52,7 +53,7 @@ session. As an example, the document could include:
 The handout lets participants arrive prepared for a discussion, so the
 presentation can focus on insight rather than summarisation.
 
-### Discussion Guidelines
+## Discussion Guidelines
 
 - The discussion events are formatted to foster debate, information sharing and
   lively discussion.
@@ -61,7 +62,7 @@ presentation can focus on insight rather than summarisation.
 - It is fine not to understand every part of a paper. Admitting uncertainty
   often generates the best discussions.
 
-### Further Reading
+## Further Reading
 
 - [How to prepare for and present at a journal club](https://www.researchgate.net/publication/258857561_How_to_prepare_for_and_present_at_a_journal_club) - ResearchGate
 - [How to successfully start and run a journal club](https://astrobites.org/2021/04/23/how-to-start-a-journal-club/) - Astrobites

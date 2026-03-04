@@ -6,7 +6,10 @@ PATH = "content"
 THEME = "themes/sef-journal-club"
 
 STATIC_PATHS = ["extra"]
-EXTRA_PATH_METADATA = {"extra/favicon.png": {"path": "favicon.png"}}
+EXTRA_PATH_METADATA = {
+    "extra/favicon.png": {"path": "favicon.png"},
+    "extra/journal_club.png": {"path": "images/journal_club.png"},
+}
 
 TIMEZONE = "Europe/London"
 DEFAULT_LANG = "en"
