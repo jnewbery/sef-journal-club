@@ -12,6 +12,12 @@ EXTRA_PATH_METADATA = {
 }
 
 MSTEAMS_URL = "https://teams.microsoft.com/l/team/19%3AfMEs9HaeZmiWN1uwiKLN8xy2H_dLIUH2tq6nLpkfoU01%40thread.tacv2/conversations?groupId=14fc94dd-2b1a-40ef-aa7b-c09c9f95ad14&tenantId=2b897507-ee8c-4575-830b-4f8267c3d307"
+WHATSAPP_URL = "https://chat.whatsapp.com/H5VdEruRH3t1aLa2nvLr7R"
+
+JINJA_GLOBALS = {
+    "MSTEAMS_URL": MSTEAMS_URL,
+    "WHATSAPP_URL": WHATSAPP_URL,
+}
 
 TIMEZONE = "Europe/London"
 DEFAULT_LANG = "en"

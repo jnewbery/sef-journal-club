@@ -28,7 +28,22 @@
   </main>
   <footer>
     <hr>
-    <p>{{ SITENAME }}</p>
+    <div class="footer-line">
+      <span>{{ SITENAME }}</span>
+      <span class="footer-sep">|</span>
+      <span class="footer-links">
+        <a href="{{ MSTEAMS_URL }}">&#xF02BB;</a>
+        <a href="{{ WHATSAPP_URL }}">&#xF232;</a>
+      </span>
+    </div>
   </footer>
+  <script>
+    document.querySelectorAll('a[href^="http"]').forEach(a => {
+      if (a.hostname !== location.hostname) {
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      }
+    });
+  </script>
 </body>
 </html>

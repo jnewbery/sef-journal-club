@@ -62,6 +62,11 @@ presentation can focus on insight rather than summarisation.
 - It is fine not to understand every part of a paper. Admitting uncertainty
   often generates the best discussions.
 
+## Getting involved
+
+- Join the [Team]({{ MSTEAMS_URL }}).
+- Join the [Whatsapp group]({{ WHATSAPP_URL }}).
+
 ## Further Reading
 
 - [How to prepare for and present at a journal club](https://www.researchgate.net/publication/258857561_How_to_prepare_for_and_present_at_a_journal_club) - ResearchGate

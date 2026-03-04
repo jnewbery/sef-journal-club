@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Symbols Nerd Font";
+  src: url("../fonts/SymbolsNerdFontMono-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
 /* Reset & base */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -118,8 +124,12 @@ article h1 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-article p, article li, article h2, article h3 {
+article p, article h2, article h3 {
   margin-top: 1rem;
+}
+
+article li {
+  margin-top: 0.25rem;
 }
 
 article h2 { font-size: 1.5rem; }
@@ -132,3 +142,30 @@ a:hover { text-decoration: underline; }
 
 /* Footer */
 footer { color: #777; font-size: 0.9rem; }
+
+.footer-line {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: "Symbols Nerd Font", sans-serif;
+  font-size: 1.2rem;
+}
+
+.footer-links a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #222;
+}
+
+.footer-sep {
+  color: #ccc;
+}
