@@ -11,6 +11,8 @@ EXTRA_PATH_METADATA = {
     "extra/journal_club.png": {"path": "images/journal_club.png"},
 }
 
+MSTEAMS_URL = "https://teams.microsoft.com/l/team/19%3AfMEs9HaeZmiWN1uwiKLN8xy2H_dLIUH2tq6nLpkfoU01%40thread.tacv2/conversations?groupId=14fc94dd-2b1a-40ef-aa7b-c09c9f95ad14&tenantId=2b897507-ee8c-4575-830b-4f8267c3d307"
+
 TIMEZONE = "Europe/London"
 DEFAULT_LANG = "en"
 
