@@ -6,4 +6,7 @@ requires-python = ">=3.14"
 dependencies = [
     "pelican-jinja2content>=1.0.1",
     "pelican[markdown]>=4.11.0.post0",
+    "poethepoet>=0.42.1",
 ]
+[tool.poe.tasks]
+serve = "scripts/run_server.sh"
