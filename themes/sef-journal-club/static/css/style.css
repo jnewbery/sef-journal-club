@@ -137,6 +137,24 @@ article h3 { font-size: 1.15rem; }
 
 article ul { padding-left: 1.5rem; }
 
+article table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+article th, article td {
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+article th {
+  background-color: #f0ede8;
+  font-weight: 600;
+}
+
 a { color: #0055aa; }
 a:hover { text-decoration: underline; }
 
