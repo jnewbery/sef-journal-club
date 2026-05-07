@@ -5,8 +5,7 @@ SITEURL = ""
 PATH = "content"
 THEME = "themes/sef-journal-club"
 
-STATIC_PATHS = ["extra", "2026-05-07-discussion-2"]
-# STATIC_PATHS = ["extra"]
+STATIC_PATHS = ["extra", "2026-05-07-discussion-1", "2026-05-07-discussion-2"]
 EXTRA_PATH_METADATA = {
     "extra/favicon.png": {"path": "favicon.png"},
     "extra/journal_club.png": {"path": "images/journal_club.png"},
