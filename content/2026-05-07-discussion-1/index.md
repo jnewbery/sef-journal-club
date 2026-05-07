@@ -33,7 +33,7 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
 - The study finds that adding a 60,000 m³ PTES reduces the levelised cost of
   heat by 14%, with an investment payback period of approximately one year.
 
-<img src="2026-05-07-discussion-1/model.png" width="80%"></img>
+<img src="./model.png" width="80%"></img>
 
 ---
 
@@ -66,7 +66,7 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
    LCOH figures to the assumed electricity price profile, and what does a more
    conservative scenario look like?
 
-<img src="2026-05-07-discussion-1/variables.png" height="600px"></img>
+<img src="./variables.png" height="600px"></img>
 
 ---
 
