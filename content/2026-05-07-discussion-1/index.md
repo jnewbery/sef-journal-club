@@ -10,7 +10,7 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
 
 ---
 
-### Summary of Paper
+## Summary of Paper
 
 
 - District Heating Network (DHN) operators are replacing fossil fuel based
@@ -37,7 +37,7 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
 
 ---
 
-### Key result
+## Key result
 
 | Scenario | LCOH (€/MWh) | Payback |
 |---|---|---|
@@ -48,7 +48,7 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
 
 ---
 
-### Discussion questions
+## Discussion questions
 
 1. The dispatch controller assumes perfect foresight of electricity prices and
    heat demand over a 14-day horizon. How realistic is this? What other models
@@ -70,7 +70,7 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
 
 ---
 
-### Further reading
+## Further reading
 
 - **Sifnaios et al.** — paper reporting the performance
   analysis of the first real short-term PTES, built in Høje Taastrup, Denmark

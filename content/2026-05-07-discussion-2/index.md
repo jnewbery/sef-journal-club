@@ -11,6 +11,8 @@ Link: https://www.sciencedirect.com/science/article/pii/S0378778822004728
 Buildings, 271, 112301. Available at:
 https://doi.org/10.1016/j.enbuild.2022.112301
 
+---
+
 ## Paper Summary
 
 In this paper, Acha et al. developed the Modelling UK Electricity Regional
@@ -21,6 +23,8 @@ framework aims to provide non-domestic consumers with the transparency needed
 to visualise their specific cost components. By improving awareness of
 spatial-temporal price dynamics, the model supports consumers in developing
 smart energy management initiatives to tackle increasing operational costs.
+
+---
 
 ## Key Results
 
@@ -51,15 +55,21 @@ non-commodity tariff components.
 
 __Figure 2: Total annual electricity costs and tariff component breakdown for a London university campus. Source: Acha et al. (2022)__
 
+---
+
 ## Discussion Questions
 
 1. What measures can businesses employ to mitigate the impact of rising electricity costs?
 2. What policy decisions should the government take to protect UK consumers from rising electricity costs?
 
+---
+
 ## Attachments
 
 - [Handout]({attach}handout.pdf) (PDF)
 - [Slides]({attach}slides.pptx) (PowerPoint)
+
+---
 
 ## Suggestions for further reading
 
