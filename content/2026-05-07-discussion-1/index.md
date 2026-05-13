@@ -12,7 +12,6 @@ Link: https://doi.org/10.1016/j.applthermaleng.2025.127770
 
 ## Summary of Paper
 
-
 - District Heating Network (DHN) operators are replacing fossil fuel based
   boilers and CHPs with heat pumps and electric boilers for several reasons:
     - To utilise cheap electricity and increase the utilisation of renewable
