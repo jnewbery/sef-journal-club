@@ -135,7 +135,13 @@ article li {
 article h2 { font-size: 1.5rem; }
 article h3 { font-size: 1.15rem; }
 
-article ul { padding-left: 1.5rem; }
+article ul, article ol { padding-left: 1.5rem; }
+
+article hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
 
 article table {
   border-collapse: collapse;
