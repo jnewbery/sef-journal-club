@@ -1,4 +1,4 @@
-Title: Sustainability in Energy Companies Under the Lens of Cultural Pressures:
+Title: Sustainability in Energy Companies Under the Lens of Cultural Pressures: When Do We Talk of Greenwashing?
 Date: 2026-05-14
 Slug: 2026-05-14-discussion-1
 Meeting: 2026-05-14
@@ -6,7 +6,7 @@ Topic: 1
 Presenter: Taegen
 Link: https://doi-org.iclibezp1.cc.ic.ac.uk/10.1002/csr.3111
 
-**Full citation:** Esposito, P., Doronzo, E., Riso, V. and Tufo, M. (2025), Sustainability in Energy
+**Full citation:** Esposito, P., Doronzo, E., Riso, V. and Tufo, M. (2025). _Corp Soc Responsib Environ Manag_, 32: 3814-3831
 
 ---
 

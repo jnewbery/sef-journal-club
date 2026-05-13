@@ -6,10 +6,7 @@ Topic: 2
 Presenter: Luke
 Link: https://www.sciencedirect.com/science/article/pii/S0378778822004728
 
-**Full citation**: Acha, S., Vieira, G., Bird, M. and Shah, N. (2022)
-‘Modelling UK electricity regional costs for commercial buildings’, Energy and
-Buildings, 271, 112301. Available at:
-https://doi.org/10.1016/j.enbuild.2022.112301
+**Full citation**: Acha, S., Vieira, G., Bird, M. and Shah, N. (2022), _Energy and Buildings_, 271, 112301
 
 ---
 
