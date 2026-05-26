@@ -2,7 +2,7 @@ Title: UK net-zero policy design – from optimisation to robustness
 Date: 2026-05-21
 Slug: 2026-05-21-discussion-2
 Meeting: 2026-05-21
-Topic: 1
+Topic: 2
 Presenter: Linus
 Link: https://doi.org/10.1016/j.envsci.2024.103804
 
