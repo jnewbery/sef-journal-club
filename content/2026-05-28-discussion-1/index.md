@@ -48,3 +48,9 @@ using CO₂, renewable energy, H₂ and NH₃ to produce proteins or amino acids
     electrochemical? 
 3.	Should the first target product be human food, animal feed, amino acids or
     emergency food? 
+
+---
+
+## Attachments
+
+- [Handout]({attach}handout.pdf)
