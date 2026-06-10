@@ -72,6 +72,13 @@ the hydro design, Setting C flipped the optimal turbine hierarchy.
 
 ---
 
+## Attachments
+
+- [Handout]({attach}handout.pdf) (PDF)
+- [Slides]({attach}slides.pdf) (PDF)
+
+---
+
 ## Further reading
 
 - Yue, X., Pye, S., DeCarolis, J., Li, F.G.N., Rogan, F. and Ó Gallachóir, B.
