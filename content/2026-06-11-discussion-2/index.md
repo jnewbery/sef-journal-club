@@ -156,4 +156,10 @@ The paper explores the following aspects of nuclear propulsion for ships:
    chartering would be needed to make the first project economically feasible
    and safe?
 
+---
+
+## Attachments
+
+- [Handout]({attach}handout.pdf) (PDF)
+
 [OECD, 2024]: https://www.oecd.org/en/data/datasets/maritime-transport-co2-emissions.html
